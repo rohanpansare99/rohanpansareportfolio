@@ -113,7 +113,9 @@ header{
 
 .header-image img{
     width: 70%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    border-radius: 50%;
+    overflow: hidden;
 }
 .header-text{
     width: 40%;
@@ -121,7 +123,7 @@ header{
 }
 .intro-lines{
     margin: 10%;
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     text-align: start;
 }
 .intro-lines hr{
@@ -130,8 +132,8 @@ header{
 /* Sections */
 .section-container{
     text-align: center;
-    margin-top: 4rem;
-    padding: 2rem;
+    margin-top: 3rem;
+    padding: 1.5rem;
     border-radius: 20px;
 }
 .section-title{
